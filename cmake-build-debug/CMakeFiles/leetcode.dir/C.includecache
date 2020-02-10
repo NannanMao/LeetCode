@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/ClionProjects/leetcode/genbrackets.h
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+
+D:/ClionProjects/leetcode/main.c
+stdio.h
+-
+genbrackets.h
+D:/ClionProjects/leetcode/genbrackets.h
+
